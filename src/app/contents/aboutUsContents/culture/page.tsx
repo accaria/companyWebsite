@@ -1,6 +1,9 @@
+import Header from "../../HeaderandFooter/header/page"
+import Footer from "../../HeaderandFooter/footer/page"
 export default function Culture(){
     return(
         <>
+        <Header/>
         <div className="w-full h-full p-[50px] flex flex-col justify-center items-start">
         <div className="text-3xl font-bold mb-10"><h1>ファルコムの社風</h1></div>
         <p>創業以来かわらぬポリシーに貫かれ、常に斬新な驚きとともに発売されてきたファルコムの数々の作品。
@@ -46,6 +49,7 @@ export default function Culture(){
 
         </div>
         </div>
+        <Footer/>
         
         </>
     )

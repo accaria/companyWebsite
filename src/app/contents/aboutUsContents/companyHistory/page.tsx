@@ -1,7 +1,11 @@
 import Link from "next/link"
+import Header from "../../HeaderandFooter/header/page"
+import Footer from "../../HeaderandFooter/footer/page"
+import Head from "next/head"
 export default function CompanyHistory(){
     return(
         <>
+        <Header/>
         <div className="w-full h-full p-[50px] flex flex-col justify-center items-start ">
         <div className="text-3xl font-bold"><h1>会社概要</h1>
         </div>
@@ -59,7 +63,7 @@ export default function CompanyHistory(){
             </tbody>
         </table>
         </div>
-        
+         <Footer/>
         </>
     )
 }

@@ -4,7 +4,7 @@ export default function Header(){
         <div className="lg:hidden flex flex-col justify-center w-full">
             <div className="flex flex-row justify-between items-center">
                 <img className="w-30 h-[30px]" src="/nihonFalcomLogo.svg" alt="Nihon Falcom" />
-                <h1 className="mr-5">LOGIN</h1>
+                
             </div>
             <div className="flex flex-row background-color justify-center space-x-8 text-center items-center" style={{backgroundColor:'#ff9613'}}>
                 <div className="p-1.5">
@@ -50,7 +50,6 @@ export default function Header(){
                     Create Blog
                 </div>
             </div>
-            <div className="w-1/3 flex justify-end items-center mr-5"><h1>LOGIN</h1></div>
         </div>
 
         </>
