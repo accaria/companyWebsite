@@ -1,6 +1,6 @@
 import Header from "../HeaderandFooter/header/page"
 import Footer from "../HeaderandFooter/footer/page"
-import Banner from "./scrollingProducts"
+import { Banner } from "./scrollingProducts"
 import Link from "next/link"
 export default function ProductsContents(){
     return(

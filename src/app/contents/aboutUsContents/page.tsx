@@ -27,7 +27,7 @@ export default function AboutUsContents(){
         </Link>
 
         <Link href="/contents/aboutUsContents/team" className="hidden relative w-full lg:block">
-            <img src="/team.webp" alt="Culture" className="w-full h-full object-cover" />
+            <img src="/team.webp" alt="Team" className="w-full h-full object-cover" />
             <div className="absolute bottom-0 left-0 w-full bg-green-300 bg-opacity-80 flex items-center justify-center py-2">
             <p className="text-white font-semibold">TEAM</p>
             </div>
