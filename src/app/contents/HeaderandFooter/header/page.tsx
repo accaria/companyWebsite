@@ -23,9 +23,11 @@ export default function Header(){
                     Products / Services
                 </div>
                 </Link>
+                <Link href={`/contents/aboutUsContents/team`}>
                 <div className="p-1.5 hover:text-cyan-500 cursor-pointer">
                     Teams
                 </div>
+                </Link>
                 <div className="p-1.5 hover:text-cyan-500 cursor-pointer">
                     Blog List
                 </div>
@@ -53,7 +55,7 @@ export default function Header(){
                     Products / Services 
                 </div>
                 </Link>
-                <Link href={`/ProductsPage`}>
+                <Link href={`/contents/aboutUsContents/team`}>
                 <div className="p-1.5 hover:text-cyan-500 cursor-pointer">
                     Teams
                 </div>

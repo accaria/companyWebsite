@@ -4,7 +4,7 @@ export default function Footer(){
     {label: "HomePage", href: "/HomePage"},
     {label: "About Us", href: "/AboutUsPage"},
     {label:"Products / Services", href: "/ProductsPage"},
-    {label: "Teams" , href:"/HomePage"},
+    {label: "Teams" , href:"/contents/aboutUsContents/team"},
     {label:"Blog List",href:"/HomePage"},
     {label:"Create Blog",href:"/HomePage"}
     ];
@@ -15,7 +15,7 @@ export default function Footer(){
         {menuLabels.map((key,index)=>(
             <Link key={index} href={key.href}>
             <div key={index} className="flex flex-col items-center text-gray-400 w-full text-xs lg:text-2xl
-             hover:text-cyan-400 cursor-pointer px-20">
+             hover:text-cyan-400 cursor-pointer px-5 lg:px-20">
                 <p>{key.label}</p>
             </div>
             </Link>

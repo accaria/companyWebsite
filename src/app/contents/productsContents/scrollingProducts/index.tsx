@@ -5,10 +5,10 @@ import { useSwipeable } from "react-swipeable";
 import Link from "next/link";
 
 const images=[
-    {src:"/productsPageMedia/bannerProducts1.jpg", link:`/IndivProductsPage/Product1` },
-    {src:"/productsPageMedia/bannerProducts2.jpg", link:`/IndivProductsPage/Product2` },
+    {src:"/productsPageMedia/bannerProducts1.jpg", link:"https://fantop.jp/titles/kainokiseki" },
+    {src:"/productsPageMedia/bannerProducts2.jpg", link:"https://shop.kotobukiya.co.jp/shop/g/g4934054065592/" },
     {src:"/productsPageMedia/bannerProducts3.webp", link:`/IndivProductsPage/Product3` },
-    {src:"/productsPageMedia/bannerProducts4.webp", link:`/IndivProductsPage/Product4` },
+    {src:"/productsPageMedia/bannerProducts4.webp", link:"https://falcom.shop/products/list?category_id=10" },
 ];
 
 const bannerImages =[
