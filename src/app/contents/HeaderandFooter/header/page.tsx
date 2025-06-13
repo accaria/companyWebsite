@@ -28,12 +28,16 @@ export default function Header(){
                     Teams
                 </div>
                 </Link>
+                <Link href={`/BlogListPage`}>
                 <div className="p-1.5 hover:text-cyan-500 cursor-pointer">
                     Blog List
                 </div>
+                </Link>
+                 <Link href={`/CreateBlogPage`}>
                 <div className="p-1.5 hover:text-cyan-500 cursor-pointer">
                     Create Blog
                 </div>
+                </Link>
             </div>
         </div>
 
@@ -60,12 +64,16 @@ export default function Header(){
                     Teams
                 </div>
                 </Link>
+                <Link href={`/BlogListPage`}>
                 <div className="p-1.5 hover:text-cyan-500 cursor-pointer">
                     Blog List
                 </div>
+                </Link>
+                <Link href={`/CreateBlogPage`}>
                 <div className="p-1.5 hover:text-cyan-500 cursor-pointer">
                     Create Blog
                 </div>
+                </Link>
             </div>
         </div>
 

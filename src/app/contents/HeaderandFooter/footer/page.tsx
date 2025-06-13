@@ -5,8 +5,8 @@ export default function Footer(){
     {label: "About Us", href: "/AboutUsPage"},
     {label:"Products / Services", href: "/ProductsPage"},
     {label: "Teams" , href:"/contents/aboutUsContents/team"},
-    {label:"Blog List",href:"/HomePage"},
-    {label:"Create Blog",href:"/HomePage"}
+    {label:"Blog List",href:"/BlogListPage"},
+    {label:"Create Blog",href:"/CreateBlogPage"}
     ];
     
     return(
