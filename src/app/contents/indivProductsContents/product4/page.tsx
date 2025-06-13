@@ -1,3 +1,4 @@
+"use client"
 import Footer from "../../HeaderandFooter/footer/page"
 import Header from "../../HeaderandFooter/header/page"
 import { CustReview } from "../../customerReviews"
