@@ -1,7 +1,6 @@
-import HomePageView from "@/view/homePage/page";
-
+import HomePageContents from "@/view/homePageComponents"
 export default function HomePage(){
     return(
-        <HomePageView/>
+        <HomePageContents/>
     )
 }

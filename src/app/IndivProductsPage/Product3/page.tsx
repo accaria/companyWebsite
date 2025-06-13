@@ -1,4 +1,4 @@
-import { Product3 } from "@/app/contents/indivProductsContents/product3/page"
+import { Product3 } from "@/view/indivProductsContents/product3/product3"
 export default function Product3Page(){
     return (
         <Product3/>

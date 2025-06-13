@@ -1,5 +1,4 @@
-import AboutUsPageView from "@/view/aboutUsPage/page";
-
+import AboutUsPageView from "@/view/aboutUsPage"
 export default function AboutUs(){
     return(
         <>
