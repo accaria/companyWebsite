@@ -12,6 +12,7 @@ export async function LoginService(params:ILogin){
       }
     );
 
+    
     const userToken = headers["user-token"];
     if (userToken) {
       setCookie("user-token", userToken);

@@ -38,6 +38,11 @@ export default function Header(){
                     Login
                 </div>
                 </Link>
+                <Link href={`/LogOutPage`}>
+                <div className="p-1.5 hover:text-cyan-500 cursor-pointer">
+                    Logout
+                </div>
+                </Link>
             </div>
         </div>
 
@@ -72,6 +77,11 @@ export default function Header(){
                 <Link href={`/LoginPage`}>
                 <div className="p-1.5 hover:text-cyan-500 cursor-pointer">
                     Login
+                </div>
+                </Link>
+                <Link href={`/LogOutPage`}>
+                <div className="p-1.5 hover:text-cyan-500 cursor-pointer">
+                    Logout
                 </div>
                 </Link>
             </div>

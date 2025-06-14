@@ -1,6 +1,14 @@
 import BlogView from "@/view/blogListPage";
+import { getServerSession } from "next-auth";
+import { authOptions } from "../api/auth/[...nextauth]/route";
+import { redirect } from "next/navigation";
 
-export default function BlogPage(){
+export default async function BlogPage(){
+    const session = await getServerSession(authOptions);
+
+    if (!session) {
+    redirect("/LoginPage");
+  }
     return(
         <>
         <BlogView/>
