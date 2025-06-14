@@ -2,7 +2,7 @@
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import LoginView from "@/view/loginPage"
+
 export default function LoginPage(){
     const router = useRouter();
     const [error, setError] = useState('');
