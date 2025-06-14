@@ -33,9 +33,9 @@ export default function Header(){
                     Blog List
                 </div>
                 </Link>
-                 <Link href={`/CreateBlogPage`}>
+                 <Link href={`/LoginPage`}>
                 <div className="p-1.5 hover:text-cyan-500 cursor-pointer">
-                    Create Blog
+                    Login
                 </div>
                 </Link>
             </div>
@@ -69,9 +69,9 @@ export default function Header(){
                     Blog List
                 </div>
                 </Link>
-                <Link href={`/CreateBlogPage`}>
+                <Link href={`/LoginPage`}>
                 <div className="p-1.5 hover:text-cyan-500 cursor-pointer">
-                    Create Blog
+                    Login
                 </div>
                 </Link>
             </div>
