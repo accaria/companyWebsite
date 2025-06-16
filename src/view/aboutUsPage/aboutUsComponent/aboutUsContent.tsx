@@ -4,7 +4,7 @@ export default function AboutUsContents(){
         <>
         {/* CH Header*/}
         <div className="w-full h-full p-[50px] flex flex-col justify-center items-center">
-        <div><img className="w-[342.84px] h-20" src="/nihonfalcomLogo.svg" alt="Falcom Logo" /></div>
+        <div><img className="w-[342.84px] h-20" src="/nihonFalcomLogo.svg" alt="Falcom Logo" /></div>
         <div className="text-center mt-10 space-y-5">
         <p>夢はいつも、ここから始まる。</p>
         <p>いつも、この場所で、ひとりひとりの夢がたくさんの大きな夢へと育まれてきました。<br /> 時代や場所を超えて人に語りかけてくるもの、夢。</p>
