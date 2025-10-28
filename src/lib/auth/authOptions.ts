@@ -12,9 +12,9 @@ export const authOptions: AuthOptions = {
       async authorize(credentials) {
         const user = {
           id: "1",
-          name: "Kondo Toshihiro",
-          username: "kondo",
-          password: "test123",
+          name: "Test User123",
+          username: "testuser",
+          password: "test1234!",
         };
 
         if (
@@ -32,7 +32,7 @@ export const authOptions: AuthOptions = {
     signIn: "/LoginPage",
   },
   session: {
-    strategy: "jwt", 
+    strategy: "jwt",
   },
   secret: process.env.NEXTAUTH_SECRET,
 };

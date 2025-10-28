@@ -7,8 +7,8 @@ export default function AboutUsContents() {
         <div>
           <img
             className="w-[342.84px] h-20"
-            src="/nihonFalcomLogo.svg"
-            alt="Falcom Logo"
+            src="/gameCompanyLogo.jpg"
+            alt="Game Company Logo"
           />
         </div>
         <div className="text-center mt-10 space-y-5">

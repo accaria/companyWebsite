@@ -14,11 +14,11 @@ const images = [
     link: "https://www.google.com/",
   },
   {
-    src: "/productsPageMedia/bannerProducts3.webp",
+    src: "/productsPageMedia/bannerProducts3.jpg",
     link: `/IndivProductsPage/Product3`,
   },
   {
-    src: "/productsPageMedia/bannerProducts4.webp",
+    src: "/productsPageMedia/bannerProducts4.jpg",
     link: "https://www.google.com/",
   },
 ];
