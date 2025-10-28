@@ -25,7 +25,7 @@ export default function AboutUsContents() {
             className="relative w-full block"
           >
             <img
-              src="/companyhistory.webp"
+              src="/companyhistory.jpg"
               alt="Company History"
               className="w-full h-auto object-cover"
             />
@@ -36,7 +36,7 @@ export default function AboutUsContents() {
 
           <Link href="/AboutUsPage/Culture" className="relative w-full block">
             <img
-              src="/culture.webp"
+              src="/culture.jpg"
               alt="Culture"
               className="w-full h-auto object-cover"
             />
@@ -75,28 +75,3 @@ export default function AboutUsContents() {
     </>
   );
 }
-
-/*
-<div className="flex flex-wrap lg:flex-row mt-10 lg:mt-20 justify-center items-center">
-        <Link href="/contents/aboutUsContents/companyHistory">
-        <div className="w-full relative"><img className="w-1/2 p-2" src="/companyhistory.webp" alt="Company History" />
-        <div className="absolute bottom-0 left-0 w-1/2 bg-pink-300 flex items-center justify-center text-center ">
-        <p>COMPANY HISTORY</p>
-        </div>
-        </div>
-        </Link>
-        <Link href="/contents/aboutUsContents/companyHistory">
-        <div className="w-full relative"><img className="w-1/2 p-2" src="/companyhistory.webp" alt="Company History" />
-        <div className="absolute bottom-0 left-0 w-1/2 bg-pink-300 flex items-center justify-center text-center">
-        <p>CULTURE</p>
-        </div>
-        </div>
-        </Link>
-        <Link href="/contents/aboutUsContents/companyHistory">
-        <div className="w-full relative"><img className="w-1/2 p-2" src="/companyhistory.webp" alt="Company History" />
-        <div className="absolute bottom-0 left-0 w-1/2 bg-pink-300 flex items-center justify-center text-center">
-        <p>TEAM</p>
-        </div>
-        </div>
-        </Link>
-        </div>*/

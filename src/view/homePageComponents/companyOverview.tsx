@@ -24,7 +24,7 @@ export default function CompanyOverview() {
             <Link href="/AboutUsPage/Culture">
               <img
                 className="w-60 h-auto mb-5"
-                src="/culture.webp"
+                src="/culture.jpg"
                 alt="Culture"
               />
               <h1 className="text-2xl text-center">ファルコムの社風</h1>
@@ -65,7 +65,7 @@ export default function CompanyOverview() {
               <Link href="/AboutUsPage/Culture">
                 <img
                   className="w-full h-auto mb-5"
-                  src="/culture.webp"
+                  src="/culture.jpg"
                   alt="Culture"
                 />
               </Link>
