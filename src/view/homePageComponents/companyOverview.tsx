@@ -52,10 +52,17 @@ export default function CompanyOverview() {
               </Link>
             </div>
             <div className="flex flex-col justify-start">
-              <h1 className="text-2xl ">ファルコムの歴史</h1>
-              <h1 className="text-2xl ">Falcom's History</h1>
+              <h1 className="text-2xl ">ザ・ゲームカンパニーSQの歩み</h1>
+              <h1 className="text-2xl ">The Journey of The Game Company SQ</h1>
               <p className="">
-                翼こ援同るドん都込づこべえ必周スル影断フクウ聞刊3競ぎいめ台当ロス村右ノツニア江米ひぶぞ提員苦気ヘユ皮力ノワソ印提べやクょ捕道シソナヘ中息セノケ美利ドっづフ。
+                2000年に設立されたザ・ゲームカンパニーSQ。
+                数々の試練を乗り越え、今も新たな物語を紡ぎ続けています。
+              </p>
+              <p>
+                Founded in 2000, The Game Company SQ has overcome countless
+                challenges
+                <br />
+                and continues to weave new stories even today.
               </p>
             </div>
           </div>
@@ -71,11 +78,23 @@ export default function CompanyOverview() {
               </Link>
             </div>
             <div className="flex flex-col justify-start">
-              <h1 className="text-2xl">ファルコムの社風</h1>
-              <h1 className="text-2xl">Falcom's Culture</h1>
-              <p className="">
-                翼こ援同るドん都込づこべえ必周スル影断フクウ聞刊3競ぎいめ台当ロス村右ノツニア江米ひぶぞ提員苦気ヘユ皮力ノワソ印提べやクょ捕道シソナヘ中息セノケ美利ドっづフ。
-                登ふわにだ将進ミキソケ典了らさだぐ療対ざん令理比く第楽つぞ仕芸ネトユ早両ずぽ城方テルノワ回家供懐蓄体クし。
+              <h1 className="text-2xl">ザ・ゲームカンパニーSQの社風</h1>
+              <h1 className="text-2xl">The Culture of The Game Company SQ</h1>
+              <p>
+                私たちは、ジャンルやスタイルの枠にとらわれず、
+                <br />
+                あらゆるゲームの魅力を尊重し、楽しむ心を大切にしています。
+                <br />
+                新しい挑戦を恐れず、世界中のプレイヤーに感動を届けることを目指しています。
+              </p>
+              <p>
+                At The Game Company SQ, we embrace every kind of game—beyond
+                genre and style.
+                <br />
+                We value the spirit of fun and respect for creativity,
+                <br />
+                always striving to inspire players around the world through new
+                challenges.
               </p>
             </div>
           </div>
@@ -87,11 +106,25 @@ export default function CompanyOverview() {
               </Link>
             </div>
             <div className="flex flex-col justify-start">
-              <h1 className="text-2xl ">ファルコムのチーム</h1>
-              <h1 className="text-2xl ">Falcom's Teams</h1>
-              <p className="">
-                翼こ援同るドん都込づこべえ必周スル影断フクウ聞刊3競ぎいめ台当ロス村右ノツニア江米ひぶぞ提員苦気ヘユ皮力ノワソ印提べやクょ捕道シソナヘ中息セノケ美利ドっづフ。
-                登ふわにだ将進ミキソケ典了らさだぐ療対ざん令理比く第楽つぞ仕芸ネトユ早両ずぽ城方テルノワ回家供懐蓄体クし。
+              <h1 className="text-2xl">ザ・ゲームカンパニーSQのチーム</h1>
+              <h1 className="text-2xl">The Teams of The Game Company SQ</h1>
+              <p>
+                私たちのチームは、ゲームを「遊ぶこと」と「創ること」の両方を愛する、
+                <br />
+                才能あふれるメンバーで構成されています。
+                <br />
+                それぞれの分野でプロフェッショナルとして活躍し、
+                <br />
+                共に最高の体験を生み出すことを目指しています。
+              </p>
+              <p>
+                Our team is made up of talented individuals who love both
+                playing
+                <br />
+                and creating games. Each member is a professional in their own
+                field,
+                <br />
+                working together to craft the best experiences possible.
               </p>
             </div>
           </div>

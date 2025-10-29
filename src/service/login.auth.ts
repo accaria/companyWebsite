@@ -2,9 +2,9 @@ import axios from "axios";
 import { setCookie } from "cookies-next";
 import { ILogin } from "@/interface/user.interface";
 
-export async function LoginService(params:ILogin){
-    try{
-        const { data, headers } = await axios.post(
+export async function LoginService(params: ILogin) {
+  try {
+    const { data, headers } = await axios.post(
       `${process.env.BACKENDLESS_API}/users/login`,
       {
         login: params.email,
@@ -12,7 +12,6 @@ export async function LoginService(params:ILogin){
       }
     );
 
-    
     const userToken = headers["user-token"];
     if (userToken) {
       setCookie("user-token", userToken);
@@ -27,15 +26,3 @@ export async function LoginService(params:ILogin){
     throw new Error(message);
   }
 }
-
-
-/*
-
-export async function LoginService(params:ILogin){
-    try{
-        const {data} = await axios.get(
-            `${process.env.BACKENDLESS_API_URL}/Users?where=email%3D'${params.email}'%20and%20password%3D'${params.password}'`
-        );
-        if (data.length === 0) throw new Error("User not Found");
-        const secret = process.env.NEXT_PUBLIC_SECRET_KEY || "";
-*/
