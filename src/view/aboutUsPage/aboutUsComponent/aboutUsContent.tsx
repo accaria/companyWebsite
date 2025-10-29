@@ -12,12 +12,23 @@ export default function AboutUsContents() {
           />
         </div>
         <div className="text-center mt-10 space-y-5">
-          <p>夢はいつも、ここから始まる。</p>
           <p>
-            いつも、この場所で、ひとりひとりの夢がたくさんの大きな夢へと育まれてきました。
-            <br /> 時代や場所を超えて人に語りかけてくるもの、夢。
+            私たちは、常に全力で最高のゲーム体験を届けることを目指しています。
           </p>
-          <p>Nihon Falcom Corporation.</p>
+          <p>
+            We always strive to deliver the best gaming experiences possible.
+          </p>
+          <p>
+            技術や表現の限界に挑みながら、
+            <br />
+            プレイヤーの心に残る物語を創り続けます。
+          </p>
+          <p>
+            Pushing the limits of creativity and technology,
+            <br />
+            we continue to create stories that stay in players’ hearts.
+          </p>
+          <p>The Game Company SQ</p>
         </div>
         <div className="grid grid-cols-2 lg:flex lg:flex-row gap-4 mt-10 lg:mt-20 px-4">
           <Link

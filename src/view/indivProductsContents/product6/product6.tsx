@@ -1,31 +1,56 @@
 "use client";
 import { CustReview } from "../../customerReviews";
+
 export function Product6() {
   return (
     <>
-      <h1 className="text-3xl mt-5">グッズ</h1>
+      <h1 className="text-3xl mt-5 text-center">グッズ</h1>
       <hr className="border border-gray-500 my-4" />
+
       <div className="flex flex-col justify-start">
-        <div className="flex flex-col justify-center items-center lg:text-2xl font-bold bg-gray-700 lg:w-1/2 w-full mx-auto">
-          <h1>「創の軌跡」カットインアクリルフィギュア（全10種）</h1>
-          <h2>創の軌跡</h2>
+        {/* Header Section */}
+        <div className="flex flex-col justify-center items-center lg:text-2xl font-bold bg-gray-700 text-white py-3 lg:w-1/2 w-full mx-auto rounded-lg">
+          <h1>カットインアクリルフィギュア（全10種）</h1>
+          <h2>The Game Company SQ</h2>
         </div>
-        <div className="flex flex-col lg:flex-row mt-10 px-5 lg:px-130">
-          <div className="">
+
+        {/* Product Details */}
+        <div className="flex flex-col lg:flex-row mt-10 px-5 lg:px-20 gap-6 items-center">
+          <div className="lg:w-1/2">
             <img
-              className="lg:w-100"
               src="/productsPageMedia/products6.jpg"
-              alt="products6"
+              alt="カットインアクリルフィギュア"
+              className="rounded-lg shadow-md w-full"
             />
           </div>
-          <div className="mt-10 lg:mt-0 lg:ml-20">
-            <p className="text-justify">
-              創の軌跡より、カットインアクリルフィギュアが登場！
+
+          <div className="lg:w-1/2">
+            <p className="text-justify leading-relaxed">
+              <span className="text-3xl font-bold">
+                あの名シーンを、手のひらの中に。
+              </span>
+              <br />
+              The Game Company SQから、人気キャラクターたちのカットインを
+              デザインしたアクリルフィギュアが登場！
+              <br />
+              迫力あるポーズや印象的な表情を、
+              高精細な印刷と透明感のあるアクリルで再現しました。
+            </p>
+
+            <p className="mt-5 text-justify leading-relaxed">
+              全10種類のバリエーションがあり、
+              並べるとまるでゲームのバトルシーンのような臨場感を味わえます。
+              <br />
+              コレクションはもちろん、お気に入りのキャラクターを飾るにも最適。
             </p>
           </div>
         </div>
       </div>
-      <CustReview />
+
+      {/* Customer Reviews */}
+      <div className="mt-10">
+        <CustReview />
+      </div>
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { Banner } from "./scrollingProducts";
 import Link from "next/link";
+
 export default function ProductsContents() {
   return (
     <>
@@ -10,14 +11,14 @@ export default function ProductsContents() {
           <h1 className="text-3xl">注目アイテム</h1>
           <h2 className="tracking-wide text-2xl">PICKUP</h2>
         </div>
+
+        {/* Mobile Display */}
         <div className="lg:hidden grid grid-cols-2 justify-center items-center gap-10">
           <Link href={`/IndivProductsPage/Product1`}>
-            <div className="">
+            <div>
               <img src="/productsPageMedia/products1.jpg" alt="products1" />
-              <h3>
-                「創の軌跡」アクリルスタンドプレート（描き起こしイラスト）
-              </h3>
-              <p className="ml-2">株式会社A3</p>
+              <h3>アクリルスタンドプレート（キャラクターコレクション）</h3>
+              <p className="ml-2">The Game Company SQ</p>
               <p className="ml-2">発売日：2025.7.15</p>
             </div>
           </Link>
@@ -25,8 +26,8 @@ export default function ProductsContents() {
           <Link href={`/IndivProductsPage/Product2`}>
             <div>
               <img src="/productsPageMedia/products2.jpg" alt="products2" />
-              <h3>「零の軌跡」缶バッジ（描き起こしイラスト）</h3>
-              <p className="ml-2">株式会社A3</p>
+              <h3>オリジナル缶バッジセット（全6種）</h3>
+              <p className="ml-2">The Game Company SQ</p>
               <p className="ml-2">発売日：2025.7.15</p>
             </div>
           </Link>
@@ -34,8 +35,8 @@ export default function ProductsContents() {
           <Link href={`/IndivProductsPage/Product3`}>
             <div>
               <img src="/productsPageMedia/products3.jpg" alt="products3" />
-              <h3>「イース世界地図 ショットグラス</h3>
-              <p className="ml-2">日本ファルコム</p>
+              <h3>ワールドマップショットグラス</h3>
+              <p className="ml-2">The Game Company SQ</p>
               <p className="ml-2">発売日：2025.6.21</p>
             </div>
           </Link>
@@ -43,8 +44,8 @@ export default function ProductsContents() {
           <Link href={`/IndivProductsPage/Product4`}>
             <div>
               <img src="/productsPageMedia/products4.jpg" alt="products4" />
-              <h3>ピッカードゆらゆらグラス</h3>
-              <p className="ml-2">日本ファルコム</p>
+              <h3>キャラクターモチーフグラス</h3>
+              <p className="ml-2">The Game Company SQ</p>
               <p className="ml-2">発売日：2025.6.21</p>
             </div>
           </Link>
@@ -52,8 +53,8 @@ export default function ProductsContents() {
           <Link href={`/IndivProductsPage/Product5`}>
             <div>
               <img src="/productsPageMedia/products5.jpg" alt="products5" />
-              <h3>アルティナ・オライオン界の軌跡ver.(1/8スケール)</h3>
-              <p className="ml-0">コトブキヤ</p>
+              <h3>1/8スケール フィギュア（オリジナルキャラクター）</h3>
+              <p className="ml-0">The Game Company SQ</p>
               <p className="ml-0">発売日：2025年11月</p>
             </div>
           </Link>
@@ -61,22 +62,21 @@ export default function ProductsContents() {
           <Link href={`/IndivProductsPage/Product6`}>
             <div>
               <img src="/productsPageMedia/products6.jpg" alt="products6" />
-              <h3>「創の軌跡」カットインアクリルフィギュア（全10種）</h3>
-              <p className="ml-0">株式会社アルジャーノンプロダクト</p>
+              <h3>カットインアクリルフィギュア（全10種）</h3>
+              <p className="ml-0">The Game Company SQ</p>
               <p className="ml-0">発売日：2025年6月</p>
             </div>
           </Link>
         </div>
       </div>
 
-      {/*Display for LG*/}
-
+      {/* LG Display */}
       <div className="hidden lg:grid grid-cols-3 justify-center items-center gap-10">
         <Link href={`/IndivProductsPage/Product1`}>
-          <div className="">
+          <div>
             <img src="/productsPageMedia/products1.jpg" alt="products1" />
-            <h3>「創の軌跡」アクリルスタンドプレート（描き起こしイラスト）</h3>
-            <p className="ml-2">株式会社A3</p>
+            <h3>アクリルスタンドプレート（キャラクターコレクション）</h3>
+            <p className="ml-2">The Game Company SQ</p>
             <p className="ml-2">発売日：2025.7.15</p>
           </div>
         </Link>
@@ -84,8 +84,8 @@ export default function ProductsContents() {
         <Link href={`/IndivProductsPage/Product2`}>
           <div>
             <img src="/productsPageMedia/products2.jpg" alt="products2" />
-            <h3>「零の軌跡」缶バッジ（描き起こしイラスト）</h3>
-            <p className="ml-2">株式会社A3</p>
+            <h3>オリジナル缶バッジセット（全6種）</h3>
+            <p className="ml-2">The Game Company SQ</p>
             <p className="ml-2">発売日：2025.7.15</p>
           </div>
         </Link>
@@ -93,8 +93,8 @@ export default function ProductsContents() {
         <Link href={`/IndivProductsPage/Product3`}>
           <div>
             <img src="/productsPageMedia/products3.jpg" alt="products3" />
-            <h3>「イース世界地図 ショットグラス</h3>
-            <p className="ml-2">日本ファルコム</p>
+            <h3>ワールドマップショットグラス</h3>
+            <p className="ml-2">The Game Company SQ</p>
             <p className="ml-2">発売日：2025.6.21</p>
           </div>
         </Link>
@@ -102,8 +102,8 @@ export default function ProductsContents() {
         <Link href={`/IndivProductsPage/Product4`}>
           <div>
             <img src="/productsPageMedia/products4.jpg" alt="products4" />
-            <h3>ピッカードゆらゆらグラス</h3>
-            <p className="ml-2">日本ファルコム</p>
+            <h3>キャラクターモチーフグラス</h3>
+            <p className="ml-2">The Game Company SQ</p>
             <p className="ml-2">発売日：2025.6.21</p>
           </div>
         </Link>
@@ -111,8 +111,8 @@ export default function ProductsContents() {
         <Link href={`/IndivProductsPage/Product5`}>
           <div>
             <img src="/productsPageMedia/products5.jpg" alt="products5" />
-            <h3>アルティナ・オライオン界の軌跡ver.(1/8スケール)</h3>
-            <p className="ml-0">コトブキヤ</p>
+            <h3>1/8スケール フィギュア（オリジナルキャラクター）</h3>
+            <p className="ml-0">The Game Company SQ</p>
             <p className="ml-0">発売日：2025年11月</p>
           </div>
         </Link>
@@ -120,8 +120,8 @@ export default function ProductsContents() {
         <Link href={`/IndivProductsPage/Product6`}>
           <div>
             <img src="/productsPageMedia/products6.jpg" alt="products6" />
-            <h3>「創の軌跡」カットインアクリルフィギュア（全10種）</h3>
-            <p className="ml-0">株式会社アルジャーノンプロダクト</p>
+            <h3>カットインアクリルフィギュア（全10種）</h3>
+            <p className="ml-0">The Game Company SQ</p>
             <p className="ml-0">発売日：2025年6月</p>
           </div>
         </Link>

@@ -14,7 +14,7 @@ export default function ProductHomePage() {
             <img
               className=""
               src="/homePageMedia/homepageBanner1.jpg"
-              alt="Sora no Kiseki 1ST"
+              alt="Space Quest Game"
             />
             <h1 className="text-justify space-x-4">
               Pre-Orders are open! ご予約受付中
@@ -22,7 +22,7 @@ export default function ProductHomePage() {
               <span className="bg-blue-950">PS5</span>
               <span className="bg-gray-900">Steam</span>
             </h1>
-            <h1 className="text-2xl font-bold">空の軌跡 the 1st </h1>
+            <h1 className="text-2xl font-bold">Space Quest Game </h1>
             <h1 className="text-end">
               Check out the dedicated site 公式サイト
             </h1>
@@ -37,14 +37,17 @@ export default function ProductHomePage() {
         </div>
         <div className="flex flex-col mt-5">
           <div className="">
-            <img src="/homePageMedia/homepageBanner2.jpg" alt="Kai no Kiseki" />
+            <img
+              src="/homePageMedia/homepageBanner2.jpg"
+              alt="Space Exploration Game"
+            />
             <h1 className="text-justify space-x-4">
               Orders are now open! 今すぐご購入を
               <span className="bg-red-500">Switch</span>
               <span className="bg-blue-950">PS5</span>
               <span className="bg-gray-900">Steam</span>
             </h1>
-            <h1 className="text-2xl font-bold">界の軌跡 </h1>
+            <h1 className="text-2xl font-bold">Space Exploration Game </h1>
             <h1 className="text-end">
               Check out the dedicated site 公式サイト
             </h1>
@@ -68,7 +71,7 @@ export default function ProductHomePage() {
             <img
               className=""
               src="/homePageMedia/homepageBanner1.jpg"
-              alt="Sora no Kiseki 1ST"
+              alt="Space Quest Game"
             />
             <h1 className="text-justify space-x-4">
               Pre-Orders are open! ご予約受付中
@@ -76,7 +79,7 @@ export default function ProductHomePage() {
               <span className="bg-blue-950">PS5</span>
               <span className="bg-gray-900">Steam</span>
             </h1>
-            <h1 className="text-2xl font-bold">空の軌跡 the 1st </h1>
+            <h1 className="text-2xl font-bold">Space Quest Game </h1>
             <h1 className="text-end">
               Check out the dedicated site 公式サイト
             </h1>
@@ -96,7 +99,7 @@ export default function ProductHomePage() {
           <div className="">
             <img
               src="/homePageMedia/homepageBanner2.jpg"
-              alt="Kai no Kiseki"
+              alt="Space Exploration Game"
               className=""
             />
             <h1 className="text-justify space-x-4">
@@ -105,7 +108,7 @@ export default function ProductHomePage() {
               <span className="bg-blue-950">PS5</span>
               <span className="bg-gray-900">Steam</span>
             </h1>
-            <h1 className="text-2xl font-bold">界の軌跡 </h1>
+            <h1 className="text-2xl font-bold">Space Exploration Game </h1>
             <h1 className="text-end">
               Check out the dedicated site 公式サイト
             </h1>
